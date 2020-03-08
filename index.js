@@ -4,7 +4,7 @@
 // @version      0.1
 // @description  Adds new sort options in the "This Month" and "Last Month" columns to sort by Views or Earnings.
 // @author       Aiden Valentine
-// @match        https://www.xvideos.com/account/uploads/statistics/*
+// @match        https://www.xvideos.com/account/uploads/statistics*
 // @grant        none
 // ==/UserScript==
 
@@ -19,7 +19,8 @@
     var elem4 = '<a href="https://www.xvideos.com/account/uploads/statistics/s:e-2003:desc" id="e-2003"><span class="txt">E</span></a>';
     $('#video-tab-list > thead > tr:nth-child(1) > th:nth-child(9)').append(elem4);
 
-    // Logic
+    // Logic - TODO
+    /*
     var url = "https://www.xvideos.com/account/uploads/statistics/";
     if (window.location.href = url+"s:v-2002:desc") {
       $("#v-2002").attr("href", url+"s:v-2002:asc");
@@ -33,4 +34,5 @@
     if (window.location.href = url+"s:e-2003:desc") {
       $("#e-2003").attr("href", url+"s:e-2003:asc");
     }
+    */
 })();
