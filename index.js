@@ -19,20 +19,18 @@
     var elem4 = '<a href="https://www.xvideos.com/account/uploads/statistics/s:e-2003:desc" id="e-2003"><span class="txt">E</span></a>';
     $('#video-tab-list > thead > tr:nth-child(1) > th:nth-child(9)').append(elem4);
 
-    // Logic - TODO
-    /*
+    // Logic
     var url = "https://www.xvideos.com/account/uploads/statistics/";
-    if (window.location.href = url+"s:v-2002:desc") {
+    if (window.location.href == url+"s:v-2002:desc") {
       $("#v-2002").attr("href", url+"s:v-2002:asc");
     }
-    if (window.location.href = url+"s:e-2002:desc") {
+    if (window.location.href == url+"s:e-2002:desc") {
       $("#e-2002").attr("href", url+"s:e-2002:asc");
     }
-    if (window.location.href = url+"s:v-2003:desc") {
+    if (window.location.href == url+"s:v-2003:desc") {
       $("#v-2003").attr("href", url+"s:v-2003:asc");
     }
-    if (window.location.href = url+"s:e-2003:desc") {
+    if (window.location.href == url+"s:e-2003:desc") {
       $("#e-2003").attr("href", url+"s:e-2003:asc");
     }
-    */
 })();
