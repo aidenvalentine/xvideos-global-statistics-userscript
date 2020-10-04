@@ -11,9 +11,9 @@
 (function(){
     // Default Values
     var elem1 = '<a href="https://www.xvideos.com/account/uploads/statistics/s:v-2009:desc" id="v-2009"><span class="txt">V</span></a>';
-    $('#video-tab-list > thead > tr:nth-child(1) > th:nth-child(9)').append(elem1);
+    $('#video-tab-list > thead > tr:nth-child(1) > th:nth-child(10)').append(elem1);
     var elem2 = '<a href="https://www.xvideos.com/account/uploads/statistics/s:e-2009:desc" id="e-2009"><span class="txt">E</span></a>';
-    $('#video-tab-list > thead > tr:nth-child(1) > th:nth-child(9)').append(elem2);
+    $('#video-tab-list > thead > tr:nth-child(1) > th:nth-child(10)').append(elem2);
     var elem3 = '<a href="https://www.xvideos.com/account/uploads/statistics/s:v-2010:desc" id="v-2010"><span class="txt">V</span></a>';
     $('#video-tab-list > thead > tr:nth-child(1) > th:nth-child(9)').append(elem1);
     var elem4 = '<a href="https://www.xvideos.com/account/uploads/statistics/s:e-2010:desc" id="e-2010"><span class="txt">E</span></a>';
